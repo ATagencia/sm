@@ -1,0 +1,26 @@
+<head>
+    <script>ons.bootstrap();</script>
+</head>
+
+<ons-page>
+    <ons-navigator title="Navigator" var="myNavigator">
+
+        <ons-toolbar>
+            <div class="left">
+                <ons-back-button>Atrás</ons-back-button>
+            </div>
+            <div class="center">Santa Marta</div>
+        </ons-toolbar>
+
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('buceo.html', { animation : 'slide' } )">
+                Buceo
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('rumba.html', { animation : 'slide' } )">
+                Rumba
+            </ons-list-item>
+        </ons-list>
+    </ons-navigator>
+</ons-page>

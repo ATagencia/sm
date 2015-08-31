@@ -1,0 +1,41 @@
+<head>
+    <meta charset="utf-8">
+</head>
+<ons-page>
+    <ons-toolbar modifier="opacity">
+        <div class="left">
+            <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center">Santa Marta</div>
+    </ons-toolbar>
+
+    <div class="app-page">
+        <div class="app-page-photo">
+            <ons-row class="app-map">
+                <ons-col>
+                    <map zoom="10" center="[11.245049, -74.212670]">
+                        <marker
+                                position="[11.245049, -74.212670]"
+                                title="Hello Marker"
+                                animation="Animation.BOUNCE"
+                                visible="true" ></marker>
+                    </map>
+                </ons-col>
+            </ons-row>
+
+            <div class="app-page-content">
+                <p><strong>País:</strong> Colombia</p>
+                <p><strong>Provincia:</strong> Magdalena</p>
+                <p><strong>Código postal:</strong> 47001000</p>
+                <p><strong>Alcalde actual:</strong>Carlos Eduardo Caicedo Omar</p>
+                <p><strong>Población:</strong> 414.387 habitantes</p>
+                <p><strong>Coordenadas geográficas</strong><br/>
+                <strong>- Latitud:</strong> 11.2333<br/>
+                <strong>- Longitud:</strong> 1-74.2<br/>
+                11° 13' 59" <strong>Norte</strong>, 74° 12' 0" <strong>Oeste</strong><br/></p>
+            </div>
+
+        </div>
+    </div>
+
+</ons-page>

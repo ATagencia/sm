@@ -1,0 +1,51 @@
+<ons-page>
+    <ons-navigator title="Navigator" var="myNavigator">
+
+        <ons-toolbar modifier="opacity">
+            <div class="left">
+                <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+            </div>
+            <div class="center">Santa Marta</div>
+        </ons-toolbar>
+
+        <div class="app-page">
+            <div class="app-page-content">
+
+                <h2>Qué hacer</h2>
+                <p>Cerca de donde nació Gabriel García Márquez, el padre del realismo mágico, Santa Marta cautiva con planes de playa y cultura, entre otras opciones. Aquí los visitantes siempre encuentran qué hacer: bucear, practicar deportes de aventura y visitar playas donde la selva se junta con el mar; también, observar aves, hacer un recorrido histórico por la ciudad y visitar el corazón de la cultura Tayrona.</p>
+
+            </div>
+        </div>
+
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('sol_playa.html', { animation : 'slide' } )">
+                Sol y playa
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('rumba.html', { animation : 'slide' } )">
+                Rumba
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('gastronomia.html', { animation : 'slide' } )">
+                Gatronomía
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('naturaleza.html', { animation : 'slide' } )">
+                Naturaleza
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('buceo.html', { animation : 'slide' } )">
+                Buceo
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('compras.html', { animation : 'slide' } )">
+                Compras
+            </ons-list-item>
+        </ons-list>
+    </ons-navigator>
+</ons-page>
