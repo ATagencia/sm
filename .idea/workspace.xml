@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e974b80b-4274-4c85-bb77-765ce2f24709" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Gerson\WebstormProjects\app\sm\www\spec.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/inicio.html" afterPath="$PROJECT_DIR$/www/inicio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e974b80b-4274-4c85-bb77-765ce2f24709" name="Default" comment="" />
     <ignored path="santamarta.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
