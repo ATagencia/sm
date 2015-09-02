@@ -45,6 +45,8 @@ body {
     width:100%;
 }
 
+
+
 /* Portrait layout (default) */
 .app {
     background:url(../images/logo.png) no-repeat center top; /* 170px x 200px */
@@ -129,7 +131,50 @@ ons-page.transparent .page__content {
 .logo {
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 53%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    height: 215px;
+    padding: 40px 0px 0 0;
+}
+.logo img {
+    width: 250px;
+}
+
+.iconos-home {
+    text-align: center;
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.iconos-home img {
+    width: 60px;
+    padding: 0px 0px 0px 10px;
+}
+
+img.iconos-footer {
+
+    width: 50px;
+    padding: 10px 0px 0px 10px;
+
+}
+
+img.right {
+
+    width: 40px;
+    padding: 10px 0px 0px 10px;
+
+}
+
+.right img {
+    width: 40px;
+    padding: 10px 0px 0px 0px;
 }
 
 .home {
@@ -138,6 +183,8 @@ ons-page.transparent .page__content {
     background-position: 100% 0%;
     background-size: cover;
 }
+
+
 
 .app-page-content {
     padding: 20px;
