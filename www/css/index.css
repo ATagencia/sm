@@ -164,18 +164,13 @@ img.iconos-footer {
     padding: 10px 0px 0px 10px;
 
 }
-
-img.right {
-
-    width: 40px;
-    padding: 10px 0px 0px 10px;
-
-}
-
 .right img {
-    width: 40px;
+    width: 30px;
     padding: 10px 0px 0px 0px;
+    position: relative;
+    right: 10px;
 }
+
 
 .home {
     background: url(../images/bg.jpg);
@@ -184,7 +179,28 @@ img.right {
     background-size: cover;
 }
 
+/*MENU*/
 
+ons-list-item.menu-item.list__item.ons-list-item-inner {
+    background: #238ef4;
+    background: -moz-linear-gradient(left, #238ef4 33%, #306ffe 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(33%,#238ef4), color-stop(100%,#306ffe));
+    background: -webkit-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: -o-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: -ms-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: linear-gradient(to right, #238ef4 33%,#306ffe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#238ef4', endColorstr='#306ffe',GradientType=1 );
+    height: 75px;
+    padding: 14px 18px 10px 0;
+    margin: 0 auto;
+    color: #fff;
+    font-family: coolvetica;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+/*FIN MENU*/
 
 .app-page-content {
     padding: 20px;
