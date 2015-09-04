@@ -19,13 +19,13 @@
       <h2 class="home-title"><IMG SRC="../www/images/logo.svg"></h2>
     </div>
     <div class="iconos-home">
-        <img src="../www/images/iconos/localizacion.png">
-        <img src="../www/images/iconos/quehacer.png">
-        <img src="../www/images/iconos/socialmedia.png">
-        <img src="../www/images/iconos/galeria.png">
+        <img ng-click="menu.setMainPage('localizacion.html')" src="../www/images/iconos/localizacion.png">
+        <img ng-click="menu.setMainPage('que_hacer.html')" src="../www/images/iconos/quehacer.png">
+        <img ng-click="menu.setMainPage('redes_sociales.html')" src="../www/images/iconos/socialmedia.png">
+        <img ng-click="menu.setMainPage('galeria.html')" src="../www/images/iconos/galeria.png">
         <br/>
-        <img class="iconos-footer" src="../www/images/iconos/alcaldiadesantamarta.png">
-        <img class="iconos-footer" src="../www/images/iconos/santamartaestacambiando.png">
+        <img ng-click="menu.setMainPage('http://www.santamarta.gov.co')" class="iconos-footer" src="../www/images/iconos/alcaldiadesantamarta.png">
+        <img ng-click="menu.setMainPage('geolocalizacion.html')" class="iconos-footer" src="../www/images/iconos/santamartaestacambiando.png">
     </div>
   </div>
 
