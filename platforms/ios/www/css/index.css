@@ -21,6 +21,24 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+
+/* Llamado de fonts*/
+@font-face {
+    font-family: 'HelveticaNeueLTPro';
+    src: url('font/HelveticaNeueLTPro.otf') format('truetype'); /*Tipo de archivo: ttf, otf*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Llamado de fonts*/
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/Coolvetica.otf') format('truetype'); /*Tipo de archivo: ttf, otf*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
@@ -44,6 +62,8 @@ body {
     padding:0px;
     width:100%;
 }
+
+
 
 /* Portrait layout (default) */
 .app {
@@ -129,8 +149,46 @@ ons-page.transparent .page__content {
 .logo {
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 53%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 53%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    height: 215px;
+    padding: 40px 0px 0 0;
 }
+.logo img {
+    width: 250px;
+}
+
+.iconos-home {
+    text-align: center;
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.iconos-home img {
+    width: 60px;
+    padding: 0px 0px 0px 10px;
+}
+
+img.iconos-footer {
+
+    width: 50px;
+    padding: 10px 0px 0px 10px;
+
+}
+.right img {
+    width: 30px;
+    padding: 10px 0px 0px 0px;
+    position: relative;
+    right: 10px;
+}
+
 
 .home {
     background: url(../images/bg.jpg);
@@ -138,6 +196,29 @@ ons-page.transparent .page__content {
     background-position: 100% 0%;
     background-size: cover;
 }
+
+/*MENU*/
+
+ons-list-item.menu-item.list__item.ons-list-item-inner {
+    background: #238ef4;
+    background: -moz-linear-gradient(left, #238ef4 33%, #306ffe 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(33%,#238ef4), color-stop(100%,#306ffe));
+    background: -webkit-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: -o-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: -ms-linear-gradient(left, #238ef4 33%,#306ffe 100%);
+    background: linear-gradient(to right, #238ef4 33%,#306ffe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#238ef4', endColorstr='#306ffe',GradientType=1 );
+    height: 75px;
+    padding: 14px 18px 10px 0;
+    margin: 0 auto;
+    color: #fff;
+    font-family: coolvetica;
+    text-align: right;
+    font-size: 18px;
+}
+
+
+/*FIN MENU*/
 
 .app-page-content {
     padding: 20px;
@@ -208,4 +289,12 @@ map.fullscreen {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.item-tittle {
+    text-align: center;
+    font-family: 'HelveticaNeueLTPro';
+    font-size: 35px;
+    padding: 20px 0 0 0;
+    color: #808080;
 }

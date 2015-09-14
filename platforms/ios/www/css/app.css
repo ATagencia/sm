@@ -1,1 +1,187 @@
 /* Insert here your custom CSS */
+
+.item-inicio {
+    background: rgb(43, 123, 250) url("../images/items-menu/inicio.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-santamarta {
+    background: rgb(43, 123, 250) url("../images/items-menu/santamarta.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-quehacer {
+    background: rgb(43, 123, 250) url("../images/items-menu/quehacer.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-sitiosdeinteres {
+     background: rgb(43, 123, 250) url("../images/items-menu/sitiosdeinteres.png")!important;
+     background-position: left top!important;
+     background-size: contain!important;
+     background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+ }
+
+.item-hoteleria {
+    background: rgb(43, 123, 250) url("../images/items-menu/hoteleria.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-galeria {
+    background: rgb(43, 123, 250) url("../images/items-menu/galeria.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+
+}
+
+.item-localizacion {
+    background: rgb(43, 123, 250) url("../images/items-menu/localizacion.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+
+}
+
+
+
+.item-festividades {
+    background: rgb(43, 123, 250) url("../images/items-menu/festividades.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-informacionpractica {
+    background: rgb(43, 123, 250) url("../images/items-menu/informacion.png")!important;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    border-image-outset: 0 0 1px 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0px!important;
+}
+
+.item-santamarta span {
+     float: right;
+     width: 100px;
+     line-height: 24px;
+ }
+
+.item-sitiosdeinteres span {
+    float: right;
+    width: 100px;
+    line-height: 24px;
+}
+
+.item-quehacer span {
+    float: right;
+    width: 80px;
+  }
+
+.menu-item span {
+    float: right;
+    width: 80px;
+  }
+
+.item-localizacion span {
+     float: right;
+     width: 80px;
+    padding: 0px 8px 0px 0px;
+ }
+
+.item-festividades span {
+    float: right;
+    width: 80px;
+    padding: 0px 14px 0px 0px;
+}
+
+.menu-item img {
+    padding: 11px 10px 0px 0px;
+}

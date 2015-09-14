@@ -21,6 +21,24 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
+
+/* Llamado de fonts*/
+@font-face {
+    font-family: 'HelveticaNeueLTPro';
+    src: url('font/HelveticaNeueLTPro.otf') format('truetype'); /*Tipo de archivo: ttf, otf*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Llamado de fonts*/
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('font/Coolvetica.otf') format('truetype'); /*Tipo de archivo: ttf, otf*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
@@ -271,4 +289,12 @@ map.fullscreen {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.item-tittle {
+    text-align: center;
+    font-family: 'HelveticaNeueLTPro';
+    font-size: 35px;
+    padding: 20px 0 0 0;
+    color: #808080;
 }

@@ -4,17 +4,28 @@
 <ons-page class="transparent home">
   <ons-toolbar modifier="transparent">
     <div class="right">
-      <ons-toolbar-button ng-click="menu.setMainPage('localizacion.html', {closeMenu: true})" ><ons-icon icon="ion-ios-location" style="color: white; font-size: 28px;"></ons-icon></ons-toolbar-button>
-    </div>
+      <img src="../www/images/iconos/español.png">
+      <img src="../www/images/iconos/ingles.png">
+  <!--
+      <ons-toolbar-button ng-click="menu.setMainPage('localizacion.html', {closeMenu: true})" ><ons-icon icon="ion-ios-location" style="color: #666666; font-size: 28px;"></ons-icon></ons-toolbar-button>
+      --></div>
     <div class="left">
-      <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" style="color: white; font-size: 28px;" fixed-width="false"></ons-icon></ons-toolbar-button>
+      <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" style="color: #666666; font-size: 28px;" fixed-width="false"></ons-icon></ons-toolbar-button>
     </div>
   </ons-toolbar>
 
   <div class="content home">
     <div class="logo">
-      <h2 class="home-title">Santa Marta</h2>
-      <p class="subtitle">slogan</p>
+      <h2 class="home-title"><IMG SRC="../www/images/logo.svg"></h2>
+    </div>
+    <div class="iconos-home">
+        <img ng-click="menu.setMainPage('localizacion.html')" src="../www/images/iconos/localizacion.png">
+        <img ng-click="menu.setMainPage('que_hacer.html')" src="../www/images/iconos/quehacer.png">
+        <img ng-click="menu.setMainPage('redes_sociales.html')" src="../www/images/iconos/socialmedia.png">
+        <img ng-click="menu.setMainPage('galeria.html')" src="../www/images/iconos/galeria.png">
+        <br/>
+        <img ng-click="menu.setMainPage('http://www.santamarta.gov.co')" class="iconos-footer" src="../www/images/iconos/alcaldiadesantamarta.png">
+        <img ng-click="menu.setMainPage('geolocalizacion.html')" class="iconos-footer" src="../www/images/iconos/santamartaestacambiando.png">
     </div>
   </div>
 
