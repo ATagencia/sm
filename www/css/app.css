@@ -185,3 +185,42 @@
 .menu-item img {
     padding: 11px 10px 0px 0px;
 }
+
+.bg-home {
+    height: 100% !important;
+}
+
+.bg-home img {
+    height: 100%;
+    width: auto !important;
+    float: right;
+}
+
+.bg-home ul {
+    height: 100% !important;
+}
+
+.smestacambiando span {
+    margin: 6px 0px 0px 0px;
+    padding: 7px 0px 0px 0px;
+    width: 97%;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    background-position: left top!important;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    -moz-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -ms-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    -o-border-image: url('../images/sombra_img.png') 50 50 50 50 / 0px 0px 10px 0px / 0 0 10px 0;
+    border-image: url('../images/sombra_img.png') 50 50 5050 / 0px 0px 76px 0px / 0 0 0px 0;
+    border-image-slice: 64;
+    background: rgb(43, 123, 250) url("../images/smcambiando.png")!important;
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.74);
+}
+
+ons-list.menu-list.list.ons-list-inner {
+    background-color: #f6a300;
+}

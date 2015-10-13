@@ -33,7 +33,7 @@
 /* Llamado de fonts*/
 @font-face {
     font-family: 'Coolvetica';
-    src: url('font/Coolvetica.otf') format('truetype'); /*Tipo de archivo: ttf, otf*/
+    src: url('font/coolvetica rg.ttf') format('truetype'); /*Tipo de archivo: ttf, otf*/
     font-weight: normal;
     font-style: normal;
 }
@@ -191,7 +191,7 @@ img.iconos-footer {
 
 
 .home {
-    background: url(../images/bg.jpg);
+    background: none;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     background-size: cover;
@@ -292,9 +292,20 @@ map.fullscreen {
 }
 
 .item-tittle {
+     text-align: center;
+     font-family: 'HelveticaNeueLTPro' helvetica;
+     font-size: 35px;
+     padding: 0px 0 0 0;
+     color: #808080;
+     font-weight: lighter;
+ }
+
+.item-tittle-padding {
     text-align: center;
-    font-family: 'HelveticaNeueLTPro';
+    font-family: 'HelveticaNeueLTPro' helvetica;
     font-size: 35px;
-    padding: 20px 0 0 0;
+    padding: 15px 0 15px 0px;
     color: #808080;
+    font-weight: lighter;
 }
+

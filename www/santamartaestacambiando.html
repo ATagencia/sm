@@ -1,0 +1,95 @@
+<ons-page>
+    <ons-navigator title="Navigator" var="myNavigator">
+
+        <ons-toolbar modifier="opacity">
+            <div class="left">
+                <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+            </div>
+            <div class="center">Santa Marta</div>
+        </ons-toolbar>
+
+        <div class="app-page">
+            <!-- Start cssSlider.com -->
+            <div class='csslider1 autoplay '>
+                <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >
+                <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' >
+                <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' >
+                <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+                <input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor' >
+                <ul>
+                    <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+                        <img src="images/slides/solyplaya/bg_quehacer1.jpg" style="width: 100%;">
+                    </div>
+                    <li class='num0 img'>
+                        <img src='images/slides/quehacer/bg_quehacer2.jpg' alt='Buns' title='Buns' />
+                    </li>
+                    <li class='num1 img'>
+                        <img src='images/slides/quehacer/bg_quehacer3.jpg' alt='Croissant' title='Croissant' />
+                    </li>
+                    <li class='num2 img'>
+                        <img src='images/slides/quehacer/bg_quehacer4.jpg' alt='Lemon pie' title='Lemon pie' />
+                    </li>
+
+                </ul>
+
+
+                <div class='cs_arrowprev'>
+                    <label class='num0' for='cs_slide1_0'></label>
+                    <label class='num1' for='cs_slide1_1'></label>
+                    <label class='num2' for='cs_slide1_2'></label>
+                </div>
+                <div class='cs_arrownext'>
+                    <label class='num0' for='cs_slide1_0'></label>
+                    <label class='num1' for='cs_slide1_1'></label>
+                    <label class='num2' for='cs_slide1_2'></label>
+                </div>
+
+
+            </div>
+            <!-- End cssSlider.com -->
+            <div class="app-page-content">
+
+                <div class="item-tittle">¿Porque Santa Marta Esta Cambiando?</div>
+                <p></p>
+
+            </div>
+        </div>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('set.html', { animation : 'slide' } )">
+                Sistema estrategico de transporte
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('odic.html', { animation : 'slide' } )">
+                Obras de Impacto Cultural
+            </ons-list-item>
+            <nav<
+            </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('rdp.html', { animation : 'slide' } )">
+                Red de Parques
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('mac.html', { animation : 'slide' } )">
+                Mejoras a Colegios
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+            <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('cdr.html', { animation : 'slide' } )">
+                Centros de Referenciación
+            </ons-list-item>
+        </ons-list>
+        <ons-list>
+        <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('cds.html', { animation : 'slide' } )">
+            Centros de salud
+        </ons-list-item>
+        </ons-list>
+        <ons-list>
+        <ons-list-item modifier="chevron" onclick="myNavigator.pushPage('mb.html', { animation : 'slide' } )">
+             Mega Biblioteca
+        </ons-list-item>
+        </ons-list>
+        </div>
+    </ons-navigator>
+</ons-page>
